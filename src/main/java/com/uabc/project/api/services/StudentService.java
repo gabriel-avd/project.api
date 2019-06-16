@@ -1,5 +1,8 @@
 package com.uabc.project.api.services;
 
-public class StudentService {
+import com.uabc.project.api.entities.Student;
+
+public interface StudentService {
+	Student saveStudent(Student student);
 
 }
