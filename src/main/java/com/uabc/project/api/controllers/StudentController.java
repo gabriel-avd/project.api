@@ -12,7 +12,7 @@ import com.uabc.project.api.entities.Student;
 public class StudentController {
 	
 	@GetMapping("/students")
-	public List<Student> getallBooks(){
+	public List<Student> getAllStudents(){
 		return Arrays.asList(new Student(1L,"Jose", "Perez", "Lopez", 19));
 	}
 
