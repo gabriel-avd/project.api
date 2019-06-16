@@ -1,2 +1,2 @@
-# project.api
+# project-api
 UABC API repository
